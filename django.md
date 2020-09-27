@@ -4,18 +4,18 @@ Preface:
 1. How internet works generally?
     1. HTTP protocol
     2. Request / Response flow
-2. What is REST API?
+2. What is an API / REST API?
 3. HTTP Verbs
-4. Status codes
+4. Status Codes
 5. What is JSON & Serialization?
 6. How to install linux alongside windows?
 7. What is linux and distributions?
 8. Basic linux commands & package manager fundamentals
 
 Basic Concepts:
-9. What is a database? (Table, Row, Column)
+9. What is a database (relational)? (Table, Row, Column)
 10. What is a framework and why use a framework at all?
-11. Install django,django rest framework & venv
+11. Install django,django rest framework & virtual environment
 12. Start django project
 13. Django project structure
 14. Settings file
@@ -38,15 +38,15 @@ API In Depth:
 29. Using urls.py file in every django app
 30. ModelViewSet
 31. DRF Router & browsable api
-32. Gitignore / ssh key / git push / git pull / origin
+32. .gitignore / ssh key / git push / git pull / origin
 
 API In Depth 2:
-33. API design
+33. API design principles
 34. HyperlinkedModelViewSet
-35. DRF serializers in depth (relations, ...)
+35. DRF serializers in depth (Relations, Nested Serializers, List Serializers ...)
 36. Git branching / git stash / git merge / git mv / git rm
 37. Filtering & Paginating results
-38. Documenting endpoints with OpenAPI
+38. Documenting endpoints with OpenAPI / Swagger
 39. Different DBMS (PostgreSQL, SQLite, MySQL, ...)
 
 User Management System:
@@ -81,4 +81,17 @@ More Advanced Topics:
 62. CORS issues & working with client side applications
 63. Email Queuing
 64. Celery
-65. NGINX, uWSGI, DNS
+65. RabbitMQ | Message Broker | Queuing systems
+66. Celery beat
+67. Celery execution pools
+68. Async I/O and it's combination with celery
+69. 
+
+Some nice to have Operation/DevOps related knowledge:
+70. WSGI and unix sockets
+71. NGINX and web servers
+72. DNS
+72. Deploy django backend on fresh ubuntu server
+73. Docker & Containerization
+74. Docker Compose
+
